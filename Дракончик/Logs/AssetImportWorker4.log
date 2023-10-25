@@ -15,7 +15,7 @@ C:/Users/illar/OneDrive/Документы/GitHub/dragon/Дракончик
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-50765
+57863
 Successfully changed project path to: C:/Users/illar/OneDrive/Документы/GitHub/dragon/Дракончик
 C:/Users/illar/OneDrive/Документы/GitHub/dragon/Дракончик
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/illar/OneDrive/Документы/GitHub/dragon/Дракончик
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21304] Host "[IP] 192.168.236.96 [Port] 0 [Flags] 2 [Guid] 1313828889 [EditorId] 1313828889 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KK5VO74) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16480] Host "[IP] 192.168.236.96 [Port] 0 [Flags] 2 [Guid] 2539957498 [EditorId] 2539957498 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KK5VO74) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21304] Host "[IP] 192.168.236.96 [Port] 0 [Flags] 2 [Guid] 1313828889 [EditorId] 1313828889 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KK5VO74) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16480] Host "[IP] 192.168.236.96 [Port] 0 [Flags] 2 [Guid] 2539957498 [EditorId] 2539957498 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KK5VO74) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 60.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 73.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.22f1 (b6c551784ba3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -62,43 +62,45 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f03)
     Vendor:   NVIDIA
     VRAM:     12075 MB
-    Driver:   31.0.15.3758
+    Driver:   31.0.15.4584
 Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004241 seconds.
+Registered in 0.004972 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 61.23 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 53.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.440 seconds
+- Completed reload, in  0.449 seconds
 Domain Reload Profiling:
-	ReloadAssembly (440ms)
-		BeginReloadAssembly (59ms)
+	ReloadAssembly (449ms)
+		BeginReloadAssembly (62ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (311ms)
-			LoadAssemblies (57ms)
+		EndReloadAssembly (315ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (71ms)
+			SetupTypeCache (79ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (185ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (179ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (61ms)
+				RefreshPlugins (53ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadAttributes (85ms)
 				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -106,38 +108,39 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003386 seconds.
+Registered in 0.003172 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\illar\OneDrive\Документы\GitHub\dragon\Дракончик\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\illar\OneDrive\Документы\GitHub\dragon\Дракончик\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.679 seconds
+- Completed reload, in  0.691 seconds
 Domain Reload Profiling:
-	ReloadAssembly (679ms)
-		BeginReloadAssembly (83ms)
+	ReloadAssembly (692ms)
+		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (519ms)
-			LoadAssemblies (58ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (533ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (174ms)
+			SetupTypeCache (179ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (232ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (238ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (153ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (157ms)
 				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -146,12 +149,12 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3109 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (113.8 KB). Loaded Objects now: 3573.
-Memory consumption went from 113.7 MB to 113.6 MB.
-Total: 2.046900 ms (FindLiveObjects: 0.169500 ms CreateObjectMapping: 0.072200 ms MarkObjects: 1.716200 ms  DeleteObjects: 0.088000 ms)
+Unloading 3101 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.7 KB). Loaded Objects now: 3566.
+Memory consumption went from 113.6 MB to 113.5 MB.
+Total: 2.059400 ms (FindLiveObjects: 0.167800 ms CreateObjectMapping: 0.071600 ms MarkObjects: 1.723300 ms  DeleteObjects: 0.095500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,56 +168,133 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 7657.988105 seconds.
-  path: Assets/PyroParticles/Prefab/Editor/PyroParticlesLogo.png
-  artifactKey: Guid(3f5cccaa9e8a292448e79f8d62a532ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PyroParticles/Prefab/Editor/PyroParticlesLogo.png using Guid(3f5cccaa9e8a292448e79f8d62a532ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ceb6e66564233e633cb62337eb3dbd') in 0.086313 seconds 
+  Time since last request: 19900.080670 seconds.
+  path: Assets/_AudioFiles/DragonEggImpact.wav
+  artifactKey: Guid(c7b9c820050cb3b429a80eac208e1376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_AudioFiles/DragonEggImpact.wav using Guid(c7b9c820050cb3b429a80eac208e1376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b2000c81380d9ceadab94002727974') in 0.085506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.545897 seconds.
+  path: Assets/_Prefabs/EnergyShield.prefab
+  artifactKey: Guid(10b47948d0254914e8de4d8032471e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/EnergyShield.prefab using Guid(10b47948d0254914e8de4d8032471e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c078bb71d646a2be5055a1d02509b548') in 0.029079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.561454 seconds.
+  path: Assets/_Prefabs/EnergyShield.prefab
+  artifactKey: Guid(10b47948d0254914e8de4d8032471e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/EnergyShield.prefab using Guid(10b47948d0254914e8de4d8032471e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90727fd04c6974f47166950a86e5a422') in 0.006235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.612826 seconds.
+  path: Assets/_Prefabs/EnergyShield.prefab
+  artifactKey: Guid(10b47948d0254914e8de4d8032471e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/EnergyShield.prefab using Guid(10b47948d0254914e8de4d8032471e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f716895dfea931c0f610e9a5833d318a') in 0.005959 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003136 seconds.
+Registered in 0.004003 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\illar\OneDrive\Документы\GitHub\dragon\Дракончик\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\illar\OneDrive\Документы\GitHub\dragon\Дракончик\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.796 seconds
+- Completed reload, in  0.695 seconds
 Domain Reload Profiling:
-	ReloadAssembly (797ms)
-		BeginReloadAssembly (121ms)
+	ReloadAssembly (695ms)
+		BeginReloadAssembly (111ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (602ms)
-			LoadAssemblies (75ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (511ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (236ms)
+			SetupTypeCache (189ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (228ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (209ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (147ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (80.3 KB). Loaded Objects now: 3570.
-Memory consumption went from 111.9 MB to 111.9 MB.
-Total: 2.103700 ms (FindLiveObjects: 0.157900 ms CreateObjectMapping: 0.067200 ms MarkObjects: 1.786300 ms  DeleteObjects: 0.091100 ms)
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.3 KB). Loaded Objects now: 3580.
+Memory consumption went from 116.5 MB to 116.4 MB.
+Total: 2.176200 ms (FindLiveObjects: 0.149900 ms CreateObjectMapping: 0.065700 ms MarkObjects: 1.866000 ms  DeleteObjects: 0.093700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002969 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\illar\OneDrive\Документы\GitHub\dragon\Дракончик\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\illar\OneDrive\Документы\GitHub\dragon\Дракончик\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.794 seconds
+Domain Reload Profiling:
+	ReloadAssembly (795ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (612ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (251ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.3 KB). Loaded Objects now: 3583.
+Memory consumption went from 116.5 MB to 116.4 MB.
+Total: 2.149600 ms (FindLiveObjects: 0.168200 ms CreateObjectMapping: 0.071900 ms MarkObjects: 1.830300 ms  DeleteObjects: 0.078100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -228,167 +308,143 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 712.468774 seconds.
-  path: Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Basic Attack.fbx
-  artifactKey: Guid(5d9efb65c776b714fb5123711f07de0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Basic Attack.fbx using Guid(5d9efb65c776b714fb5123711f07de0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece8357ddf9570554e02528cbf260ab7') in 0.138291 seconds 
+  Time since last request: 161.676340 seconds.
+  path: Assets/_Scenes/_0Scene.unity
+  artifactKey: Guid(3fb8a48f037553048a1070a8b3f41ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/_0Scene.unity using Guid(3fb8a48f037553048a1070a8b3f41ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7798103cb49055dcbce79a6e2c054ccc') in 0.005303 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Fly Forward.fbx
-  artifactKey: Guid(5fa09084d33ac9046a4a22372e78213e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Fly Forward.fbx using Guid(5fa09084d33ac9046a4a22372e78213e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054eb93a38bf6984697bc0cad8ef75ed') in 0.027903 seconds 
+  Time since last request: 3.774095 seconds.
+  path: Assets/_Scenes/_1Scene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/_1Scene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a844c8b12349c691b7658903c7fbc9f6') in 0.002284 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Fly Float.fbx
-  artifactKey: Guid(e02bdaca3b0c3284ab993c4eba862036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Fly Float.fbx using Guid(e02bdaca3b0c3284ab993c4eba862036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c9008c17106318be8ee3fe944ccf1f') in 0.029837 seconds 
+  Time since last request: 95.283656 seconds.
+  path: Assets/TextMesh Pro/Shaders
+  artifactKey: Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders using Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16852098a277b7ddedd49287b21bfbc7') in 0.007781 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Fly Glide.fbx
-  artifactKey: Guid(28a39de94def6c84ca4b447fa78a3a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Fly Glide.fbx using Guid(28a39de94def6c84ca4b447fa78a3a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8c932c3ecef65a869aa72e624abe8b') in 0.026572 seconds 
+  Time since last request: 1.074383 seconds.
+  path: Assets/TextMesh Pro/Documentation
+  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc497803c0650e980b81bcf651e18b86') in 0.007004 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Run.fbx
-  artifactKey: Guid(93048e03d4dc597468fce555d02e9274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Run.fbx using Guid(93048e03d4dc597468fce555d02e9274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef686c072a6558847b333d8bbc6e34b8') in 0.032570 seconds 
+  Time since last request: 2.297369 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras
+  artifactKey: Guid(ce51c8e33b734b4db6086586558c53a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras using Guid(ce51c8e33b734b4db6086586558c53a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2915a3e2f537059c05de7f5fd4958d') in 0.007958 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Tail Attack.fbx
-  artifactKey: Guid(1e32448c0eb5bdb45b3a576fb8011df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Tail Attack.fbx using Guid(1e32448c0eb5bdb45b3a576fb8011df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb002d9b716d2b180d92c946946523ce') in 0.026436 seconds 
+  Time since last request: 229.798863 seconds.
+  path: Assets/_Prefabs/DragonEgg.prefab
+  artifactKey: Guid(a786b787a529dfc49ba9426c790493dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/DragonEgg.prefab using Guid(a786b787a529dfc49ba9426c790493dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57240da3ca64dc6fcae2e15f2dccb730') in 0.084039 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Die.fbx
-  artifactKey: Guid(6f83b9d81f8c7854baeca6ff691bb0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Die.fbx using Guid(6f83b9d81f8c7854baeca6ff691bb0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46aabc8d696e3397ad8e3b146d9e4fe8') in 0.037930 seconds 
+  Time since last request: 2.517503 seconds.
+  path: Assets/_Prefabs/Standing Idle 03.fbx
+  artifactKey: Guid(112f027ab8600d04fbd9bf2129931495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/Standing Idle 03.fbx using Guid(112f027ab8600d04fbd9bf2129931495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb402131843461c5e89c494eac13e25') in 0.079239 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Take Off.fbx
-  artifactKey: Guid(24717e004c7ffb84a901d2dfdcc426bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Animations/DragonSoulEater/Take Off.fbx using Guid(24717e004c7ffb84a901d2dfdcc426bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1d01db015790cf3193ebbaed2ac102') in 0.024937 seconds 
+  Time since last request: 22.898409 seconds.
+  path: Assets/_Prefabs/Knight.fbx
+  artifactKey: Guid(112f027ab8600d04fbd9bf2129931495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/Knight.fbx using Guid(112f027ab8600d04fbd9bf2129931495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06c680994855b065c9072c34b373c84') in 0.029114 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.540458 seconds.
-  path: Assets/FourEvilDragonsHP/Animations/DragonUsurper/attackFlame.fbx
-  artifactKey: Guid(f3c4af16992f14c43a050675b9be2f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Animations/DragonUsurper/attackFlame.fbx using Guid(f3c4af16992f14c43a050675b9be2f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0b836da70d2bff9186bc7568f59266') in 0.028852 seconds 
+  Time since last request: 111.899340 seconds.
+  path: Assets/_Prefabs/Knight.fbx
+  artifactKey: Guid(112f027ab8600d04fbd9bf2129931495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/Knight.fbx using Guid(112f027ab8600d04fbd9bf2129931495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d01775968d4f14ace0540e1775991e') in 0.111931 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/FourEvilDragonsHP/Animations/DragonUsurper/FlyIdle.fbx
-  artifactKey: Guid(7508a417409ed134ea8cac8e87247637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Animations/DragonUsurper/FlyIdle.fbx using Guid(7508a417409ed134ea8cac8e87247637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214e1cf0919dd29d33f36ba2cc7290e1') in 0.025294 seconds 
+  Time since last request: 2.548078 seconds.
+  path: Assets/_Prefabs/Knight.fbx
+  artifactKey: Guid(112f027ab8600d04fbd9bf2129931495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/Knight.fbx using Guid(112f027ab8600d04fbd9bf2129931495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af2248d86475c07c465d32bbf4cc79d') in 0.032322 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/FourEvilDragonsHP/Animations/DragonUsurper/Scream.fbx
-  artifactKey: Guid(497f35860988216419561f5b7835a430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Animations/DragonUsurper/Scream.fbx using Guid(497f35860988216419561f5b7835a430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7f5cd7cf1e3226fb6e5c880970970e') in 0.026058 seconds 
+  Time since last request: 35.881589 seconds.
+  path: Assets/_Prefabs/mixamo.com.anim
+  artifactKey: Guid(dd87e4670009ed94baeda0f073851483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/mixamo.com.anim using Guid(dd87e4670009ed94baeda0f073851483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b5f3a6a01094bb438e2850eb880c6b') in 0.014609 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/FourEvilDragonsHP/Animations/DragonUsurper/idle02.fbx
-  artifactKey: Guid(df5d29c6a8c8f1c4caef2b4c1d0b073a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Animations/DragonUsurper/idle02.fbx using Guid(df5d29c6a8c8f1c4caef2b4c1d0b073a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f798ad62e01500f7792b663477213d') in 0.026731 seconds 
+  Time since last request: 21.285316 seconds.
+  path: Assets/_Prefabs/KnightAnimation.anim
+  artifactKey: Guid(dd87e4670009ed94baeda0f073851483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/KnightAnimation.anim using Guid(dd87e4670009ed94baeda0f073851483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ddbd738a5b5309badcd60cc5c51e44') in 0.013138 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/FourEvilDragonsHP/Animations/DragonUsurper/FlyForward.fbx
-  artifactKey: Guid(3ab266bf94f3a1a4bb030eb1b90b8600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Animations/DragonUsurper/FlyForward.fbx using Guid(3ab266bf94f3a1a4bb030eb1b90b8600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4019d1b7b2ecbcfb4abb72239e04f4d9') in 0.025593 seconds 
+  Time since last request: 8.369647 seconds.
+  path: Assets/_Animations/KnightAnimation.anim
+  artifactKey: Guid(dd87e4670009ed94baeda0f073851483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Animations/KnightAnimation.anim using Guid(dd87e4670009ed94baeda0f073851483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1dbffe81521ee4777894fc4ed53f3e') in 0.008943 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/FourEvilDragonsHP/Animations/DragonUsurper/Sleep.fbx
-  artifactKey: Guid(1cdc51d0424856e438d5215d61193412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Animations/DragonUsurper/Sleep.fbx using Guid(1cdc51d0424856e438d5215d61193412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af82fb38fb38f05044072432dbb903cd') in 0.025218 seconds 
+  Time since last request: 29.536550 seconds.
+  path: Assets/_Animations/KnightCTRL.controller
+  artifactKey: Guid(afd81fa1b105de7478cad3d466b4037a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Animations/KnightCTRL.controller using Guid(afd81fa1b105de7478cad3d466b4037a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a919970bde4a37a5b4f2f0aa85ca03') in 0.008307 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/FourEvilDragonsHP/Animations/DragonUsurper/takeOff.fbx
-  artifactKey: Guid(8d407c572ffcdd64a8093245d978392e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Animations/DragonUsurper/takeOff.fbx using Guid(8d407c572ffcdd64a8093245d978392e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e49f56747dd4ca02ef775df4a53fe2d') in 0.026528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/FourEvilDragonsHP/Animations/DragonUsurper/FlyGlide.fbx
-  artifactKey: Guid(14d524dd6d57c094da8d73fee5077c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Animations/DragonUsurper/FlyGlide.fbx using Guid(14d524dd6d57c094da8d73fee5077c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abeb71794de5b6309f9f5eb4c829e9a') in 0.026678 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/FourEvilDragonsHP/Animations/DragonUsurper/getHit.fbx
-  artifactKey: Guid(1f674d87cae509644a306408e4fecfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Animations/DragonUsurper/getHit.fbx using Guid(1f674d87cae509644a306408e4fecfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf238eab2fb1bd147b7c149e1aec868') in 0.031466 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.911645 seconds.
-  path: Assets/FourEvilDragonsHP/Animations/DragonNightMare/Basic Attack.fbx
-  artifactKey: Guid(f882585276163954fbc547e18dea9d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Animations/DragonNightMare/Basic Attack.fbx using Guid(f882585276163954fbc547e18dea9d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f655aca83fbdda9e4f98a5b6e7e56b31') in 0.028654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/FourEvilDragonsHP/Animations/DragonNightMare/Sleep.fbx
-  artifactKey: Guid(5cfe5b96be26d60478f7a5749d947a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Animations/DragonNightMare/Sleep.fbx using Guid(5cfe5b96be26d60478f7a5749d947a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bfa738f624e3fad36c4f0878921853') in 0.025157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/FourEvilDragonsHP/Animations/DragonNightMare/getHit.fbx
-  artifactKey: Guid(a640f611148020047b485abcfdbb49cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Animations/DragonNightMare/getHit.fbx using Guid(a640f611148020047b485abcfdbb49cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6024ac05c9f7871c15174663514a9368') in 0.020824 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/FourEvilDragonsHP/Animations/DragonNightMare/Jump.fbx
-  artifactKey: Guid(11710095629f7e044ad54abf1af7fc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Animations/DragonNightMare/Jump.fbx using Guid(11710095629f7e044ad54abf1af7fc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e624412eb46d8047c0788e79525f0f08') in 0.027057 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/FourEvilDragonsHP/Animations/DragonNightMare/die.fbx
-  artifactKey: Guid(4b1dcfc331de54549a94b650385f751e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Animations/DragonNightMare/die.fbx using Guid(4b1dcfc331de54549a94b650385f751e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6847748768a0309521cf690387853f') in 0.024716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/FourEvilDragonsHP/Animations/DragonNightMare/idle01.fbx
-  artifactKey: Guid(e6a84557d6aca2f4daa1b608739267d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Animations/DragonNightMare/idle01.fbx using Guid(e6a84557d6aca2f4daa1b608739267d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b751d178fe0538d1d0dc3cb976db0eaa') in 0.026286 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/FourEvilDragonsHP/Animations/DragonNightMare/scream.fbx
-  artifactKey: Guid(111c5f2baba40874c84636fdf0cf746e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Animations/DragonNightMare/scream.fbx using Guid(111c5f2baba40874c84636fdf0cf746e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3655674aa975ba1d6ee8c2ba1c25fade') in 0.026231 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.855698 seconds.
-  path: Assets/FourEvilDragonsHP/Materials/DragonTerrorBringer/BlueHP.mat
-  artifactKey: Guid(dcc7344671ccf0044a1fb5038007860e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Materials/DragonTerrorBringer/BlueHP.mat using Guid(dcc7344671ccf0044a1fb5038007860e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6856fc1adef6e613028e53a5c2b1e4') in 0.046921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.219761 seconds.
-  path: Assets/FourEvilDragonsHP/Mesh/DragonSoulEaterMesh.fbx
-  artifactKey: Guid(063e65bf9ea59ea44bb459f4b7490fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Mesh/DragonSoulEaterMesh.fbx using Guid(063e65bf9ea59ea44bb459f4b7490fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1778d2c502d8b651f3b9e37b62474670') in 0.032917 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.243791 seconds.
-  path: Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/BlueHP.png
-  artifactKey: Guid(2f825827868c75a4fa366c81b5d8b977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/BlueHP.png using Guid(2f825827868c75a4fa366c81b5d8b977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eabab223247789667da7820c1823a88') in 0.021056 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003260 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\illar\OneDrive\Документы\GitHub\dragon\Дракончик\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\illar\OneDrive\Документы\GitHub\dragon\Дракончик\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.686 seconds
+Domain Reload Profiling:
+	ReloadAssembly (686ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (504ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (210ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.3 KB). Loaded Objects now: 3623.
+Memory consumption went from 129.5 MB to 129.4 MB.
+Total: 2.543500 ms (FindLiveObjects: 0.189800 ms CreateObjectMapping: 0.146800 ms MarkObjects: 2.133600 ms  DeleteObjects: 0.072300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
