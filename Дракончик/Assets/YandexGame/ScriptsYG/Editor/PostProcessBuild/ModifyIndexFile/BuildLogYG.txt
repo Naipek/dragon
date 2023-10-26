@@ -1,0 +1,2 @@
+Build path: C:/Users/illar/OneDrive/Документы/GitHub/dragon/Дракончик/YandexBuild
+Build number: 13
